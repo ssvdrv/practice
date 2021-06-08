@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    background-color: white;
+    padding: 20px 0; 
+    color: black;
+}
+
+.wrap{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-link{
+    margin-right: 38px;
+}
+
+.site{
+    background-color: white;
+}
+
+.site-wrap{
+    background-image: url(../img/site.png);
+    min-height: 764px;
+    background-position-x: 710px;
+    background-position-y: buttom;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.site-title{
+    margin: 0;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 55px;
+    color: #151B26;
+    ;
+}
+
+.site-title-weign{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.site-title2{
+    margin: 0;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 30px;
+    color: #646F79;
+    ;
+}
+
+.site-title2-weign{
+    font-weight: 400;
+    font-size: 20px;
+}
